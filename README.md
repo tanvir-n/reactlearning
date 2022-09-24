@@ -2,10 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### npx create-react-app <app-name>
+### npx create-react-app app-name
 
 # Install any dependencies
-### npm i <dependency-name>
+### npm i dependency-name
 
 ## Available Scripts
 
