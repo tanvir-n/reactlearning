@@ -7,6 +7,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # Install any dependencies
 ### npm i dependency-name
 
+for example install react-router-dom for routing
+### npm i -D react-router-dom 
+
 ## Available Scripts
 
 In the project directory, you can run:
