@@ -1,9 +1,9 @@
 /****************************************
  *
- * Title: useState Hook
- * Description: demo use of useState hook in react
+ * Title: demo use of useState hook in react
+ * Description: React useState Hook allows us to track state in a function component.
  * Author: Tanvir Nayem 
- * Date: 09-24-21
+ * Date: 01-24-22
  * 
  ***************************************/
 
