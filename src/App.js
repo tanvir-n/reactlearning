@@ -1,4 +1,14 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Routes, Route } from "react-router-dom";
+import Layout from "./pages/Layout";
+import Home from "./pages/Home";
+import Blogs from "./pages/Blogs";
+import Contact from "./pages/Contact";
+import About from "./pages/About"
+import Signin from './pages/Signin';
+import NoPage from "./pages/NoPage";
+
+// import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -18,8 +28,24 @@ function App() {
           Learn React
         </a>
       </header>
-      
     </div>
+
+    /** This is used for navigation bar
+      <>
+      <Layout />
+      <div className='container'>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="blogs" element={<Blogs />} />
+          <Route path="about" element={<About />} />
+          <Route path="signin" element={<Signin />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="*" element={<NoPage />} />
+        </Routes>
+      </div>
+    </>
+     */
+    
   );
 }
 
